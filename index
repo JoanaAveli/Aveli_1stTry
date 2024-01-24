@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Your Bonbon Shop</title>
+</head>
+<body>
+    <header style="background-color: #8B3C7F;">
+        <img src="images/logo.png" alt="Your Bonbon Shop Logo" style="background-color: #E8F2F1;">
+        <h1 style="color: #E8F2F1;">Welcome to Your Bonbon Shop</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: #E8F2F1;">Home</a></li>
+            <li><a href="flavors.html" style="color: #E8F2F1;">Flavors</a></li>
+            <li><a href="buy.html" style="color: #E8F2F1;">Buy Bonbons</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Your captivating description goes here...</p>
+    </section>
+    <footer style="background-color: #333; color: #E8F2F1;">
+        &copy; 2024 Your Bonbon Shop
+    </footer>
+</body>
+</html>
