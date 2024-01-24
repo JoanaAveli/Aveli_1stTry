@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bonbon Flavors</title>
+</head>
+<body>
+    <header style="background-color: #8B3C7F;">
+        <img src="images/logo.png" alt="Your Bonbon Shop Logo" style="background-color: #E8F2F1;">
+        <h1 style="color: #E8F2F1;">Bonbon Flavors</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: #E8F2F1;">Home</a></li>
+            <li><a href="flavors.html" style="color: #E8F2F1;">Flavors</a></li>
+            <li><a href="buy.html" style="color: #E8F2F1;">Buy Bonbons</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Available Flavors</h2>
+        <ul>
+            <li><img src="images/salted_caramel.jpg" alt="Salted Caramel"> Salted Caramel</li>
+            <li><img src="images/praline.jpg" alt="Praline"> Praline</li>
+            <li><img src="images/fudge.jpg" alt="Fudge"> Fudge</li>
+            <li><img src="images/blackberry.jpg" alt="Blackberry"> Blackberry</li>
+            <li><img src="images/espresso.jpg" alt="Espresso"> Espresso</li>
+            <li><img src="images/dulce_de_leche.jpg" alt="Dulce de Leche"> Dulce de Leche</li>
+        </ul>
+    </section>
+    <footer style="background-color: #333; color: #E8F2F1;">
+        &copy; 2024 Your Bonbon Shop
+    </footer>
+</body>
+</html>
