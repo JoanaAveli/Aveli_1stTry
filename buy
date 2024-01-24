@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Buy Bonbons</title>
+</head>
+<body>
+    <header style="background-color: #8B3C7F;">
+        <img src="images/logo.png" alt="Your Bonbon Shop Logo" style="background-color: #E8F2F1;">
+        <h1 style="color: #E8F2F1;">Buy Bonbons</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: #E8F2F1;">Home</a></li>
+            <li><a href="flavors.html" style="color: #E8F2F1;">Flavors</a></li>
+            <li><a href="buy.html" style="color: #E8F2F1;">Buy Bonbons</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Choose Your Bonbon Box</h2>
+        <form>
+            <label for="boxSize">Select Box Size:</label>
+            <select id="boxSize" name="boxSize">
+                <option value="4">4 Bonbons</option>
+                <option value="8">8 Bonbons</option>
+                <option value="12">12 Bonbons</option>
+                <option value="16">16 Bonbons</option>
+                <option value="20">20 Bonbons</option>
+            </select>
+
+            <label for="flavorSelection">Select Flavors:</label>
+            <select id="flavorSelection" name="flavorSelection">
+                <option value="random">Random Flavors</option>
+                <option value="saltedCaramel">Salted Caramel</option>
+                <option value="praline">Praline</option>
+                <option value="fudge">Fudge</option>
+                <option value="blackberry">Blackberry</option>
+                <option value="espresso">Espresso</option>
+                <option value="dulceDeLeche">Dulce de Leche</option>
+            </select>
+
+            <button type="submit">Add to Cart</button>
+        </form>
+    </section>
+    <footer style="background-color: #333; color: #E8F2F1;">
+        &copy; 2024 Your Bonbon Shop
+    </footer>
+</body>
+</html>
